@@ -12,7 +12,7 @@ func convert_cm_mm(cm : String) -> String {
         return "ERROR Invalid Input"
     }
     
-    return String(Double(cm) * 100)
+    return String(Double(cm) * 10)
 }
 struct ContentView: View {
     @State private var input_cm:String = "0"
